@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMaster - Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="stylescontactanos.css">
+</head>
+<body>
+    <div class="container">
+    
+        <nav class="nav-main">
+        
+          <ul class="nav-menu">
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="criptomoneda.html">Criptomoneda</a>
+            </li>
+            <li>
+              <a href="inteligencia.html">Inteligencia Artificial</a>
+            </li>
+            <li>
+              <a href="cuantica.html">Computacion Cuantica</a>
+            </li>
+            <li>
+              <a href="contactanos.html">Contactanos</a>
+            </li>
+          </ul>
+    
+        </nav>
+        <hr>
+    
+        <header class="showcase">
+          <h2>Contactanos</h2>
+        </header>
+    
+    <main>
+		<form action="enviar.php" method="POST">
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre" required>
+			<label for="correo">Correo electrónico:</label>
+			<input type="email" id="correo" name="correo" required>
+			<label for="asunto">Asunto:</label>
+			<input type="text" id="asunto" name="asunto" required>
+			<label for="mensaje">Mensaje:</label>
+			<textarea id="mensaje" name="mensaje" required></textarea>
+			<button type="submit">Enviar</button>
+		</form>
+	</main>
+
+    <section class="social">
+        <p>Siguenos en las redes</p>
+        <div class="links">
+          <a href="https://facebook.com">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://linkdin.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </section>
+    </div>
+ 
+    <footer class="footer">
+        <h3>&copy; 2023</h3>
+      </footer>
+
+</body>
+</html>

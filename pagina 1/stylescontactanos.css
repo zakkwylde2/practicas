@@ -1,0 +1,213 @@
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: #000000;
+  
+    background-color: #000000;
+    color: #1e272e;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* Navigation */
+  .nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+  }
+  
+  .nav-brand {
+    width: 50px;
+  }
+  
+  /* Navbar Left */
+  .nav-main ul {
+    display: flex;
+  }
+  
+  .nav-main ul li {
+    padding: 10px;
+  }
+  
+  .nav-main ul li a {
+    padding: 2px;
+  }
+  
+  .nav-main ul li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  hr {
+    margin: 10px 0;
+  }
+
+  .showcase {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    background-image: url(img/contactanos/banner1.jpg);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  social {
+    margin: 50px;
+  }
+  .social p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .links a {
+    margin: 0 30px;
+  }
+  
+  .links a i {
+    font-size: 3rem;
+  }
+  
+  .footer-links {
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .footer-container ul {
+    margin: 0 auto;
+  }
+  
+  .footer-links li {
+    line-height: 2.8;
+  }
+  
+  .footer {
+    background: black;
+    color: white;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 20px;
+  }
+
+  /* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button[type="submit"] {
+    background-color: #222;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+form button[type="submit"]:hover {
+    background-color: #444;
+}
+
+/* Estilos para la validación de formularios */
+form input[type="text"]:invalid, form input[type="email"]:invalid, form textarea:invalid {
+    border-color: #ff0000;
+}
+
+form input[type="text"]:valid, form input[type="email"]:valid, form textarea:valid {
+    border-color: #00ff00;
+}
+
+/* Estilos para la respuesta del formulario */
+.response {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.response h2 {
+    margin-top: 0;
+}
+
+.response p {
+    margin-bottom: 0;
+}
